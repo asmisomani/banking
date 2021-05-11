@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonEZ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bankingimg">
+  <link rel="stylesheet" href="card.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="customer.html">
+  <link rel="stylesheet" href="style.js">
+  <link rel="stylesheet" href="card.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <div id="home">
+    <a href="#home"><img src="bankingimg/Screen_Shot_2021-05-02_at_16.36.48-removebg-preview.png" alt="" width="150px"
+        height="150px" id="logo"></a>
+    <div id="block1">
+      <h1 data-aos="fade-right" data-aos-duration="5000" data-aos-delay="500">transfer <span>mon</span>ey <br> with
+        <span>ease</span>
+      </h1>
+    </div>
+  </div>
+  <div class="block2">
+    <h1 data-aos="fade-in" data-aos-duration="8000">services</h1>
+    <div id="app" class="container">
+      <card data-image="https://image.freepik.com/free-vector/banking-background-design_1223-54.jpg">
+        <h1 slot="header">Online Transaction</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card data-image="https://i.pinimg.com/originals/74/29/f6/7429f604cb3086268261bd4824cbdd2d.jpg">
+        <h1 slot="header">Safety Deposits</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card data-image="https://cdn4.vectorstock.com/i/1000x1000/82/78/internet-banking-vector-6568278.jpg">
+        <h1 slot="header">Internet Banking</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+      <card
+        data-image="https://previews.123rf.com/images/yupiramos/yupiramos1803/yupiramos180321835/97544090-infographics-financial-economy-money-banking-vector-illustration.jpg">
+        <h1 slot="header">Connectivity</h1>
+        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </card>
+    </div>
+
+
+
+  </div>
+
+  <div class="button"><button><a href="http://localhost:5500/customer" target="_blank">click here to transfer
+        money</a></button></div>
+  <footer style="text-align: center;background-color: #2B6984;">
+    Copyright <span>&#169;</span> 2021 MonEZ. All rights reserved.
+Developer:Asmi Somani
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+  <script src="card.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+
+</html>

@@ -1,0 +1,148 @@
+
+:root{
+    --greycol:rgb(65, 63, 63);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#home h3{
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+    font-size: 3rem;
+    color: #7598A4;
+    text-shadow: 2px 2px 5px black;
+    
+}
+#home h1 span{
+  /* text-shadow: 1px 1px 5px black , -1px -1px 5px white; */
+  color:#1b4253;
+}
+#home a{
+    text-decoration: none;
+    color: var(--greycol);
+    font-size: 1.5rem;
+}
+#home::before{
+    content: '';
+    background: url("bankingimg/reach us.png") no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#logo:hover, #logo:active{
+  transform: scale(1.1,1.1);
+}
+#block1{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+#home h1{
+    /* border-left: 5px solid var(--greycol); */
+    text-transform: uppercase;
+    color: rgb(233, 242, 252);
+    padding: 0rem 1rem;
+    width:fit-content;
+    margin-left: 5rem;
+    text-shadow: 1px 1px 5px black , -1px -1px 5px white;
+    font-size: 3rem;
+}
+.block2{
+    background-color: white;
+}
+.block2 h1{
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button{
+  text-align: center;
+  background-color: white;
+}
+button{
+  text-transform: capitalize;
+  width: fit-content;
+  background-color:#2B6984 ;
+  box-shadow: 0px 0px 10px #2B6984; 
+  padding: 0.75em 1.5em;
+  outline: none;
+  margin: 50px 0px;
+  font-size: 2em;
+  border: none;
+}
+.button a, .button a:hover{
+  text-decoration: none;
+  color:black;
+  text-shadow: 0px 0px 5px var(--greycol);
+  text-transform: capitalize;
+}
+
+button:hover{
+  transform: scale(1.05,1.05);
+  transition: transform 1ms ease-in-out;
+  cursor: pointer;
+}
+button:focus, button:active{
+  background-color: #1b4253;
+}
+.block2{
+  min-height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.block2 h1{
+  /* border-left: 5px solid var(--greycol); */
+  text-transform: uppercase;
+  color: #1f6c8d;
+  width:fit-content;
+  margin: 0px auto;
+  text-shadow: 1px 1px 5px black , -1px -1px 5px white;
+  font-size: 3rem;
+  text-align: center;
+}
+/* card */
+.cards{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.item {
+  display: block;
+  position: relative;
+  max-width: 20rem;
+  max-height:20rem ;
+  border: 1px solid var(--greycol);
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+.item:hover{
+  transform: rotate(360deg);
+  transition: transform 500ms ease-in-out;
+}
+.item img{
+  max-width: 20rem;
+  max-height:20rem ;
+}
+
+.item div{
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 5px;
+  width: 20rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card-info h1{
+  font-size: 25px!important;
+  color: rgb(220, 231, 233);
+}
+
